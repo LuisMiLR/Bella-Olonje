@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 1440px;
+    font-family: "poppins",sans-serif;
+
+}
+.desktopNavbar{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+}
+.right {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+width: 50%;
+}
+.left {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+margin-bottom: 30px;
+width: 20%;
+
+}
+
+.imglogo {
+margin-left: 90px;
+}
+
+.desktopHeroLight1 {
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background-image:url(images/Rectangle_48.png);
+display: flex;
+flex-direction: column-reverse;
+}
+
+.desktopHeroLight1 h1 {
+    color: #ffff;
+    font-family: "Popins",sans-serif;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 58px;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 330px;
+}
+.desktopHeroLight1 p{
+    color: #ffff;
+    font-family: "montserrat",sans-serif;
+    font-weight: 700px;
+    font-size: 24px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 73px;   
+}
+.titleContain1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 56px;
+    margin-bottom: 79px;
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 64px; 
+
+    
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat",sans-serif;
+    border: 3px solid red;
+    padding: 10px;
+}
+.textArg1{
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 22px;
+}
+.textArg2{
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 22px;
+}
+.containButton {
+    margin-top: 46px;
+    display: flex;
+    justify-content: flex-end; 
+
+
+}
+.cButton {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    background-color:#FA4A0C;
+    width: 177px;
+    padding: 10px 38px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    border-radius: 200px;
+    border: none;
+}
+.cButton a {
+    text-decoration: none;
+    font-family: "Montserrat",sans-serif;
+    color: #ffff;
+    font-size: 24px;
+    
+}
+.ligne {
+    border-bottom: 3px solid #E4E4E4;
+    display: flex;
+    justify-content: center; 
+    margin-top: 99px; 
+    width: 884px; 
+    margin-left: 278px;
+    
+
+}
+
+.problemSolved h4{
+    font-family: "poppins",sans-serif;
+    font-weight: 600px;
+    font-size: 34px;
+    margin-top: 171px;
+}  
+.bonneAppetit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Montserat",sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #ffff;
+    background-image:url(images/bonneAppetit.png);
+    margin-top: 145.9px;
+    margin-bottom: 18px;
+}
+
+.titleBApp {
+    margin-top:145.9px ;
+    margin-bottom: 313.1px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.socialT{
+    margin-left: 30px;
+    margin-right: 42px;
+}
+.socialF{
+    margin-top: -20px;
+    margin-right: 41.58px;
+
+}
+.socialI{
+    margin-bottom: -5px;
+}
+
+/* --------------------------------- page 2 ---------------------------------- */
+.containerGlobal{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+.containerboite1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.boite{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.separateur{
+    border-bottom: 3px solid #E4E4E4;
+    display: flex;
+    justify-content: center; 
+    margin-top: 99px; 
+    width: 884px; 
+    margin-left: 278px;
+}
