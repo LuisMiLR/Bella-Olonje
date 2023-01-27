@@ -9,10 +9,9 @@
     <link rel="shortcut icon" href="images/favicon-16x16.png"/> 
     <link rel="apple-touch-icon" href="images/apple-icon-144x144.png"/>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    
+    <header>
         <nav class="desktopNavbar"> 
             <div class="Left">
                 <img class="imgLogo" src="images/Bella Olonje logo 111 1.png" alt="logo du restaurant Bella Olonje">
@@ -24,70 +23,69 @@
                 <a href="#">Salade</a>
                 <a href="#">Contact</a>
             </div>
-
-        </nav>
-    <header>
-        <div class="desktopHeroLight1"> 
-            <h1> Chez Bella <br> chaque désir s'additionne.</h1>
-            <p>Food app</p>
-        </div>
+        </nav>    
     </header>
     <main>
-        <div class="titleform">
-            <h3> vos informations</h3>
-        </div>
+        <section>
+            <div class="desktopHeroLight1"> 
+                <h1> Chez Bella <br> chaque désir s'additionne.</h1>
+                <p>Food app</p>
+            </div>    
+        </section>
         <form class="containerGlobal">
             <div class="containerboite1">
-                    <div class="boite">
-                        <label>Nom</label>
-                        <input type="text">
-                    
-                        <label for="telephone">Telephone</label>
-                        <input type="tel" id="phone" name="phone"
-                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                                required>
-                    </div>
                 <div class="boite">
+                    <libellé class="boldLib" >Vos informations</libellé>
                     <label>Prénom</label>
                     <input type="text">
-                    <label>Adresse email</label>
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" name="phone"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required>
+                </div>
+                <div class="boite2">
+                    <label>Prénom</label>
+                    <input type="text">
+                    <label>email</label>
                     <input type="text">
                 </div>
             </div>
             <div class="separateur">
                 <hr>
             </div>
-            <div class="titleform">
-                <h3>Votre commande</h3>
-                <p> Suppléments</p>
+            <div class="titleForm">
+                <div class="tfLeft"> 
+                    <h3>Votre commande</h3>
+                </div>
+                <div class="tfRight">
+                    <p> Pizza 4 fromage</p>
+                </div>
             </div>
-            <div class="containerboite1">
-                <div class="boite">
+            <p class="sup">Suppléments</p>
+            <div class="containerboite2">
+                <div class="boiteIngredient">
                     <label for="sup-select">Ingrédients:</label>
                     <select name="sup" id="sup-select">
                         <option value="">Fromage</option>
                         <option value="Dog">Dog</option>
                     </select>
-                
                     <label for="sup-select">Ingrédients:</label>
                     <select name="sup" id="sup-select">
                         <option value="">Fromage</option>
                         <option value="Dog">Dog</option>
                     </select>
-
                     <label for="sup-select">Ingrédients:</label>
                     <select name="sup" id="sup-select">
                         <option value="">Fromage</option>
                         <option value="Dog">Dog</option>
                     </select>
-                
                     <label for="sup-select">Ingrédients:</label>
                     <select name="sup" id="sup-select">
                         <option value="">Fromage</option>
                         <option value="Dog">Dog</option>
                     </select>    
                 </div>
-                <div class="boite">
+                <div class="boiteQuantités">
                     <label for="Quantités">Quantité</label>
                     <input type="Quant" id="1" name="numero"
                             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
@@ -105,9 +103,98 @@
                             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                             required>       
                 </div>
-
-    
-        
+            </div>
+            <div class="containerBoiteRadio">
+                <div class="boite">
+                    <div class="boiteRAvec">
+                        <input type="radio" id="avec" name="Afrite" value="Avec frites"checked>
+                        <label for="Avec frites">Avec frites</label>
+                    </div>
+                    <div class="boiteRsans">
+                        <input type="radio" id="sans" name="Sfrite" value="Sans frites">
+                        <label for="Sans frites">Sans frites</label>
+                    </div>      
+                </div>
+            </div>
+            <div class="containerboite3">                   
+                    <libellé  class="middleLib" >Boisson</libellé>
+                    <div class="checkCheck" >
+                        <input type="checkbox" id="Cocacola" name="CocaCola" checked>
+                        <label for="sup-select">CocaCola</label>
+                        <input type="checkbox" id="Fanta" name="Fanta">
+                        <label for="sup-select">Fanta</label>
+                        <input type="checkbox" id="Eau" name="Eau">
+                        <label for="sup-select">Eau</label>
+                    </div>
+                    
+                    <div class="boiteOption">
+                        <select name="sup" id="sup-select">
+                        <option value="">1</option>
+                        </select>
+                        <select name="sup" id="sup-select">
+                        <option value="">1</option>
+                        </select> 
+                        <select name="sup" id="sup-select">
+                        <option value="">1</option>
+                        </select>
+                    </div>
+                
+                
+                    <libellé class="middleLib" >Deserts</libellé>
+                    <div class="checkCheck">
+                        <input type="checkbox" id="tiramisy" name="tiramisy" checked>
+                        <label for="tiramisy">Tiramisy</label>
+                        <input type="checkbox" id="Cheesecake" name="cheeseCake">
+                        <label for="Cheesecake">Cheesecake</label>
+                        <input type="checkbox" id="Tarte aux fraises" name="Tarte aux fraises">
+                        <label for="Tarte aux fraises">Tarte aux fraises</label>
+                    </div>
+                    <div class="boiteOption">    
+                        <select name="sup" id="sup-select">
+                        <option value="">1</option>
+                        </select>
+                        <select name="sup" id="sup-select">
+                        <option value="">1</option>
+                        </select>
+                        <select name="sup" id="sup-select">
+                        <option value="">1</option>
+                        </select>
+                    </div>
+               
+            </div>
+            <div class="separateur">
+                <hr>
+            </div>
+            <div class="containerboite1">
+                <div class="boite">
+                    <libellé class="contLibAdr">Adresse de livraison</libellé>
+                    <label>Nom</label>
+                    <input type="text">
+                    <label for="telephone">Telephone</label>
+                    <input type="tel" id="phone" name="phone"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            required>
+                    <label>adresse</label>
+                    <input type="text">
+                    <label>Ville</label>
+                    <input type="text">    
+                </div>
+                <div class="boite3">
+                    <label>Prénom</label>
+                    <input type="text">
+                    <label>email</label>
+                    <input type="text">
+                    <label>Code postale</label>
+                    <input type="text">
+                    <label>Pays</label>
+                    <input type="text">    
+                </div>
+            </div>
+            <div class="containButtonForm">
+                <button class="cButton"> 
+                    <a  href="#">Envoyer</a> 
+                </button> 
+            </div>                 
         </form>
     </main>
     <footer>
