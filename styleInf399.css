@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    font-family: "poppins",sans-serif;
+}
+.desktopNavbar{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.imgLogo {
+    display: flex;
+    justify-content: center;
+    margin:0px;
+    width: 100%;
+}
+.right{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+
+}
+.desktopHeroLight1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.desktopHeroLight1 h1{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-family: "Popins",sans-serif;
+    font-style: normal;
+    font: size 0.6em;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    background-color: red;
+}
+.desktopHeroLight1 p{
+    font-family: "montserrat",sans-serif;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10%;
+
+
+}
+.titleContain1 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.container1{
+    width: 70%;
+    display: flex;
+    flex-direction: column; 
+}
+.card1{
+    width: 365px;
+}
+.imgArg{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.textArg1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

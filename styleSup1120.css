@@ -18,10 +18,12 @@ body {
 }
 /* ----------------------------------- header ------------------------------- */
 .desktopNavbar{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+    flex-wrap: nowrap;
+   
 }
 .right {
     display: flex;
@@ -29,6 +31,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 50%;
+    flex-wrap: nowrap;
     
 }
 .right a {
@@ -41,6 +44,7 @@ body {
     justify-content: flex-end;
     margin-bottom: 30px;
     width: 20%;
+    
 }
 
 .imglogo {
@@ -48,6 +52,7 @@ body {
 }
 /* ---------------------------------- Bannière ------------------------ */
 .desktopHeroLight1 {
+    width: 100%;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-image:url(images/Rectangle_48.png);
     display: flex;
@@ -146,9 +151,9 @@ body {
     margin-top: 99px; 
     width: 884px; 
     margin-left: 278px;
-    
-
+    text-decoration: none;
 }
+
 /* ------------------------------- section low ------------------------- */
 .problemSolved h4{
     font-family: "poppins",sans-serif;
@@ -338,7 +343,7 @@ body {
 .boiteRAvec {
     display: flex;
     flex-direction: row;
-    width: 35%;
+    width: 45%;
     font-family: 'roboto',sans-serif;
     font-size: 1em; 
     margin-bottom: 38px;
@@ -360,22 +365,29 @@ body {
 }
 
 .boiteOption{
-    width: 45%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+    margin-top: 30px;    
 }
+.boiteOption select{
+    height: 40px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 40px;
 
-              
+}              
 .checkCheck{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    justify-content: space-around;
+    width: 180px;
 }
-.checkcheck input {
-    width: 10px;
+.checkCheck label  {
+    font-size: 1.2em;
+    width: 10px;    
 }
+
 .separateur{
     border-bottom: 3px solid #E4E4E4;
     display: flex;
@@ -393,10 +405,12 @@ body {
 
 }
 .middleLib{
+    display: flex;
+    flex-direction: column;
     font-family:"Monterrat",sans-serif;
     font-size: medium;
     font-weight: 700;
-    /* margin-bottom: 15px; */
+    margin-bottom: 15px; 
 }
 .sup{
     font-family: 'Montserrat',sans-serif;
@@ -431,13 +445,13 @@ body {
     justify-content: flex-start; 
 }
 .cButton2 {
-    width: 177px;
+    width: 139px;
     display: flex;
     justify-content: center;
     font-family: "Montserrat",sans-serif;
-    font-size: 24px;
+    /* font-size: 1px; */
     background-color:#FA4A0C;
-    padding: 10px 38px;
+    padding: 10px 16px 10px 16px;
     margin-top: 18px;
     margin-bottom: 8px;
     border-radius: 4px;
@@ -448,7 +462,7 @@ body {
     text-decoration: none;
     font-family: "Montserrat",sans-serif;
     color: #ffff;
-    font-size: 24px;    
+    font-size: 1em;    
 }
 .containButton2 p {
     display: flex;
@@ -456,4 +470,75 @@ body {
     align-items: center;
     margin-left: 5%;
 }
+.chose {
+    font-family: 'roboto',sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
 
+.containerboiteY{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    width: 80%;    
+}
+.containerboiteY input{
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 40px; 
+
+}
+.boiteY{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto',sans-serif;
+    font-size: 1em;
+
+}
+.containerboiteZ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    width: 80%;    
+}
+.containerboiteZ textarea{
+    height: 360%;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 20px; 
+    resize: none;
+}
+.boiteZ{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto',sans-serif;
+    font-size: 1em;
+    margin-top: 14px;
+}
+.plan{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media  screen and (max-width:1199px)  {
+  
+
+    }
+    .desktopNavbar{
+        width: 80%;
+
+    }
+
+   
+
+
+
+     
+
+@media screen and (max-width:768px){
+
+}
