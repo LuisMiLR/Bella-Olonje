@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html { 
+    scroll-behavior: smooth; 
+}
+
+body {
+    width: 100%;
+    font-family: "poppins",sans-serif;
+
+}
+/* ----------------------------------- header ------------------------------- */
+.desktopNavbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+   
+}
+.right {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+   
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.left {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-bottom: 30px;
+     
+    
+}
+
+.imglogo {
+    margin-left: 60px; 
+}
+/* ---------------------------------- Bannière ------------------------ */
+.desktopHeroLight1 { 
+    width: 100%;
+    /* height: auto; */
+    background-image:url(images/Rectangle_48.png); 
+    background-image: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 56px;
+}
+
+.desktopHeroLight1 h1 { 
+    
+    color: #ffff;
+    font-family: "Popins",sans-serif;
+    font-style: normal;
+    font-size: 58px;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 330px;
+}
+.desktopHeroLight1 p{ 
+    width: 100%;
+    color: #ffff;
+    font-family: "montserrat",sans-serif;
+    font-size: 24px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 73px;   
+}
+/* --------------------------------------- titres de section ------------ */
+.titleContain1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 56px;
+    margin-bottom: 79px;
+}
+/* --------------------------------------- section ---------------------- */
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+/* --------------------------------------- cards ------------------------- */
+.card1 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat",sans-serif;
+    border: 3px solid red;
+    padding: 10px;
+}
+.textArg1{
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 22px;
+}
+.textArg2{
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 22px;
+}
+/* ----------------------------------------------------- bouton 1 ------------------------------------------- */
+.containButton {
+    margin-top: 46px;
+    display: flex;
+    justify-content: flex-end; 
+
+
+}
+.cButton {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    background-color:#FA4A0C;
+    width: 177px;
+    padding: 10px 38px;
+    margin-top: 18px;
+    margin-bottom: 28px;
+    border-radius: 200px;
+    border: none;
+}
+.cButton a {
+    text-decoration: none;
+    font-family: "Montserrat",sans-serif;
+    color: #ffff;
+    font-size: 24px;
+    
+}
+/* ------------------------------- section low ------------------------- */
+.problemSolved h4{
+    font-family: "poppins",sans-serif;
+    font-weight: 600px;
+    font-size: 34px;
+    margin-top: 171px;
+    margin-bottom: 1%;
+    margin-left: 2%;
+} 
+.problemSolved p{ 
+    line-height: 290%;
+    margin-left: 2%;
+}
+
+.bonneAppetit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Montserat",sans-serif;
+    font-size: 24px;
+    color: #ffff;
+    background-image:url(images/bonneAppetit.png);
+    background-size: cover;
+    margin-top: 145.9px;
+    margin-bottom: 18px;
+}
+
+.titleBApp {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: 145.9px ;
+    margin-bottom: 313.1px;
+}
+/* --------------------------------------- footer ------------------------ */
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.social{
+    margin-left: 1%;
+}
+.socialT{
+    margin-left: 30px;
+    margin-right: 42px;
+}
+.socialF{
+    margin-top: -20px;
+    margin-right: 41.58px;
+
+}
+.socialI{
+    margin-bottom: -5px;
+}
+
+/* ***************************************************** page 2 ******************************************** */
+/* ----------------------------------------------------- formulaire ---------------------------------------- */
+.containerGlobal{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+.containerboite1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 85%;
+}
+.containerboite1 input{
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 40px;
+}
+/* -------------------------------------------- boites --------------------------------- */
+.boite{
+    width: 30.80%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto',sans-serif;
+    font-size: 1em;
+}
+.boite2{
+    width: 30.80%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto',sans-serif;
+    font-size: 1em;
+}
+.boite2pg3{
+    width: 30.80%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto',sans-serif;
+    font-size: 1em;
+    margin-top: 10%;
+    
+}
+.boite3{
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto',sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    width: 30.80%;
+}
+.boite4{ 
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-family: 'roboto',sans-serif;
+    font-size: 1em;
+
+}
+/* ----------------------------------------------- titres section 2 du formulaire ----------------------------------------------------- */
+.titleForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.titleForm .tfLeft{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Popins',sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 56px;
+    margin-bottom: 21px;
+    width: 30%;
+}
+.titleForm .tfRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: #FA4A0C;
+    width: 25%;
+    padding-top: 50px;
+}
+
+/* ------------------------------------------------------- container ingredients et quantités -----------------------------------*/
+.containerboite2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10%;
+    width: 85%;
+}
+.containerboite2 input{
+    height: 40px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 40px;
+}
+.containerbol select{
+    height: 40px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 40px;
+}
+
+.boiteIngredient{
+    display: flex;
+    flex-direction: column;
+    width: 30.80%;
+    font-family: 'roboto',sans-serif;
+    font-size: 1em;
+    margin-right: 8%;    
+}
+.boiteIngredient select{
+    color: #D9D9D9;
+    height: 40px;
+    margin-bottom: 40px;
+}
+.boiteQuantités{
+    display: flex;
+    flex-direction: column;
+    width: 30.80%;
+    font-family: 'roboto',sans-serif;
+    font-size: 1em;
+}
+/* --------------------------------------------------- input radio --------------------------------------------------------- */
+.containerBoiteRadio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    margin-left: 10.7%;
+    margin-top: 50.6px;
+    margin-bottom: 25.03px;
+    width: 80%;
+}
+.boiteRAvec {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    font-family: 'roboto',sans-serif;
+    font-size: 1em; 
+    margin-bottom: 38px;
+}
+.boiteRSans{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    font-family: 'roboto',sans-serif;
+    font-size: 1em; 
+    margin-bottom: 45px;
+
+}
+.chOp{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+
+
+
+}
+.containerboite3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    width: 80%;
+    margin-left: 120px;
+}
+
+.boiteOption{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;    
+}
+.boiteOption select{
+    height: 40px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 40px;
+
+}              
+.checkCheck{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 180px;
+}
+.checkCheck label  {
+    font-size: 1.2em;
+    width: 10px;    
+}
+
+/* .separateur{  */
+    /* margin-top: 61px;  */
+    /* width: 55%;  */
+    /* margin-left: 278px; */
+    /* margin-top: 61.3px;  */
+/* } */
+.boldLib {
+    width: 100%;
+    font-family: "Poppins",sans-serif;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-left: 170px;
+    margin-bottom: 88px;
+
+}
+.containerboiteTT{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.middleLib{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family:"Monterrat",sans-serif;
+    font-size: large;
+    font-weight: 700;
+    margin-left: -80px;
+    margin-bottom: 15px; 
+}
+.middleLib2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family:"Monterrat",sans-serif;
+    font-size: large;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-top: -35px;
+    margin-bottom: 15px; 
+}
+.sup{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    margin-left: 170px;
+    margin-top: 21.86px;
+    margin-bottom: 34px;
+}
+.contLibAdr{
+    font-family: "Poppins",sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 95px;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-left: 130px;
+}
+.containButtonForm{
+    margin-top: 181.29px;
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 26%;
+    margin-bottom: 8%;
+
+}
+/* **************************************************** page3  ***********************************************************  */
+/* ---------------------------------------------------- bouton-2 upload --------------------------------------------------- */
+.containButton2 {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-start; 
+}
+.cButton2 {
+    width: 139px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat",sans-serif;
+    /* font-size: 1px; */
+    background-color:#FA4A0C;
+    padding: 10px 16px 10px 16px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 2px;
+}
+.cButton2 a {
+    text-decoration: none;
+    font-family: "Montserrat",sans-serif;
+    color: #ffff;
+    font-size: 1em;    
+}
+.containButton2 p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5%;
+}
+.chose {
+    font-family: 'roboto',sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.containerboiteY{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    width: 80%;    
+}
+.containerboiteY input{
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 40px; 
+
+}
+.boiteY{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto',sans-serif;
+    font-size: 1em;
+
+}
+.containerboiteZ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    width: 80%;    
+}
+.containerboiteZ textarea{
+    height: 360%;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 20px; 
+    resize: none;
+}
+.boiteZ{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto',sans-serif;
+    font-size: 1em;
+    margin-top: 14px;
+}
+.plan{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* --------------------------------------------- @media ----------------------------------- */
+@media (max-width:480px) {
+* { 
+    flex-wrap:wrap;
+    gap: 20px;
+}
+/*  --------------------div left de la navbar -------------------*/
+.left{
+    width: 20%;
+}
+.imglogo {
+    margin-left: 20px; 
+}
+/* ------------------------------------------- Bannière ---------------------------------- */
+.desktopHeroLight1 { 
+    margin-bottom: 0px;
+}
+.boiteIngredient{
+    margin-right: 20px;
+}
+    
+.textArg1{
+    font-size: 30px;
+    margin-top: 1px;
+}
+.textArg2{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.containButton {
+    margin-top: 2px;
+    display: flex;        
+    justify-content: flex-end;   
+}
+.problemSolved h4{
+    font-size: 29px;
+    margin-top: 60px;
+}
+.bonneAppetit{
+    margin-top: 100px;
+}
+}
+@media (max-width:801px) { 
+    *{
+        flex-wrap: wrap;
+    }
+    * { 
+        flex-wrap:wrap;
+        gap: 20px;
+    }
+    /*  --------------------div left de la navbar -------------------*/
+    .left{
+        width: 20%;
+    }
+    .imglogo {
+        margin-left: 20px; 
+    }
+    /* ------------------------------------------- Bannière ---------------------------------- */
+    .desktopHeroLight1 { 
+        margin-bottom: 0px;
+    }
+    .boiteIngredient{
+        margin-right: 20px;
+    }
+        
+    .textArg1{
+        font-size: 30px;
+        margin-top: 1px;
+    }
+    .textArg2{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .containButton {
+        margin-top: 2px;
+        display: flex;        
+        justify-content: flex-end;   
+    }
+    .problemSolved h4{
+        font-size: 29px;
+        margin-top: 60px;
+    }
+    .bonneAppetit{
+        margin-top: 100px;
+    }
+    
+}
+@media (max-width: 1440px){
+
+}
